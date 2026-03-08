@@ -18,6 +18,7 @@ input hasil benar
 
 Program ini menjalankan perkalian semua bilangan positif dalam larik (_array_). Ini akan bekerja untuk bilangan positif, nol, dan negatif.
 ![alt text](image-3.png)
+
 di dalam modul, contoh soal yang pertama input yang di berikan adalah (1, -2, 3, -4, 5, -6) yang artinya hanya mengalikan bilangan positif yaitu `1*3*5` yang hasilnya 15
 
 lalu jika input nya di ubah menjadi (2, 0, 26, 28, -2) yang hasilnya 0
