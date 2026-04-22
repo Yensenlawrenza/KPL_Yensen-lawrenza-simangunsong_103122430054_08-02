@@ -1,10 +1,8 @@
-const sekarang = new Date();
-
-const formatter = new Intl.DateTimeFormat('id-ID', {
+const tanggal = new Intl.DateTimeFormat('id-ID', {
   weekday: 'long',
-  day: '2-digit',
+  day: 'numeric',
   month: 'long',
   year: 'numeric'
-});
+}).format(new Date());
 
-console.log(formatter.format(sekarang));
+console.log(tanggal);
