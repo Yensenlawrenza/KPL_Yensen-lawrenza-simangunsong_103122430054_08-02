@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 
 app.use(express.json());
-
-// fungsi generate angka dari nama (deterministik)
 function generateNumber(nama) {
     let total = 0;
     for (let i = 0; i < nama.length; i++) {
@@ -12,7 +10,6 @@ function generateNumber(nama) {
     return (total % 100) + 1;
 }
 
-// endpoint POST /
 app.post('/', (req, res) => {
     const { nama, tebakan } = req.body;
 
